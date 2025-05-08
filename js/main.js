@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('Happy 4th month, my love.').split('');
+        const titles = ('happy mensiversary').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "I dedicate this flower to you. These four months with you aren't just time that passed, but a journey of how you turned my days into the most comforting place to come home to. Thank you for staying, for still being you. I love you so deeply and endlessly. ";
+            subtitle.innerText = " Thank you for coming and making everything better, let's continue to love each other and be happy together.";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
